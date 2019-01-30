@@ -25,6 +25,9 @@ artist1 = Artist.new({
 
     album1.save()
 
+    album1.find_artist()
+    artist1.find_album()
+
 
     binding.pry
     nil
