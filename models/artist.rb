@@ -39,6 +39,15 @@ class Artist
     return SqlRunner.run(sql, values).map {|album| Artist.new(album)}
   end
 
+  # def update()
+  #   sql = "UPDATE artists SET
+  #         (name) = ($1)
+  #         WHERE id = $2"
+  #   values = [@name, @id]
+  #   SqlRunner.run(sql, values)
+  # end
+
+
 
   def self.all()
     sql = "SELECT * FROM artists"

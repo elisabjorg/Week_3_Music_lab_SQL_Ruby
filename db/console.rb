@@ -28,6 +28,8 @@ artist1 = Artist.new({
     album1.find_artist()
     artist1.find_album()
 
+    # artist1.name = 'Shaggy'
+    # artist1.update()
 
     binding.pry
     nil
